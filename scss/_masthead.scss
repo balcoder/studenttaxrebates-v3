@@ -2,6 +2,10 @@ header.masthead {
   position: relative;
   background-color: $gray-800;
   background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
   // background: linear-gradient(to bottom, #{fade-out($color-royalblue-dark, .4)} 0%,#{fade-out($color-royalblue-light, .4)} 100%), url('../img/bg-masthead.jpg');
   @include background-cover;
   padding-top: 8rem;
@@ -21,7 +25,7 @@ header.masthead {
   }
   @media (min-width: 768px) {
     //padding-top: 12rem;
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-bottom: 6rem;
     h1 {
       font-size: 3rem;
