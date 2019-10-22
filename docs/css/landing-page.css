@@ -9708,6 +9708,7 @@ a.text-primary-light:hover, a.text-primary-light:focus {
 }
 
 body {
+  padding-top: 60px;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -9721,8 +9722,8 @@ a:link {
 }
 
 #mainNav a.navbar-brand {
-  font-family: cursive;
-  font-size: 1.3rem;
+  font-family: 'Satisfy',cursive;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -9950,7 +9951,46 @@ header.masthead .signature-check {
   opacity: 0.6;
 }
 
+.contact_pre-heading {
+  font-weight: 400;
+  color: #dc3545;
+  font-size: .8rem;
+  text-transform: uppercase;
+  line-height: 1.4rem;
+}
+
+.contact_heading {
+  font-weight: 900;
+  letter-spacing: -0.1rem;
+  font-size: 3.25rem;
+  line-height: 4rem;
+}
+
+.contact-icon i {
+  justify-content: center;
+  color: #fff;
+}
+
+.contact-icon i.fa-circle {
+  color: #1976D2;
+  text-shadow: 0 2px 4px #343a40;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+footer.footer li a {
+  color: #FFC107;
+}
+
+footer.footer li a:active, footer.footer li a:focus, footer.footer li a:hover {
+  color: #ad8200 !important;
+  text-decoration: none;
+}
+
+footer.footer .copyright {
+  margin-top: 1rem;
+  border-top: 1px solid #ba8b00;
 }

@@ -1,4 +1,22 @@
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+
+  a:hover {
+    //color: $color-primary-light;
+  }
+  li a{
+        color: $color-accent-color;
+
+        &:active,
+        &:focus,
+        &:hover {
+          color: darken($color-accent-color, 17.5%) !important;
+          text-decoration: none;
+        }
+    }
+  .copyright {
+    margin-top: 1rem;
+    border-top: 1px solid darken($color-accent-color, 15%);
+  }
 }

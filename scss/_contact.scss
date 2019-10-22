@@ -1,0 +1,27 @@
+.contact {
+  &_pre-heading {
+    font-weight: 400;
+    color: $red;
+    font-size: .8rem;
+    text-transform: uppercase;
+    line-height: 1.4rem;
+  }
+
+  &_heading {
+    font-weight: 900;
+    letter-spacing: -0.1rem;
+    font-size: 3.25rem;
+    line-height: 4rem;
+  }
+
+  &-icon i {
+    justify-content: center;
+
+    color: #fff;
+    &.fa-circle {
+      color: $color-primary-dark;
+      text-shadow: 0 2px 4px $gray-800;
+
+    }
+  }
+}
