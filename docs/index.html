@@ -79,93 +79,95 @@
               <h2>Online Tax Rebate Form</h2>
               <p>Please fill out the form below and we'll get back to you shortly with a rebate.</p>
             </div>
-            <form class="form-info">
-
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="fname" hidden="true">First Name</label>
-                  <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="lname" hidden="true">Last Name</label>
-                  <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="mname" hidden="true">Maiden Name(if married)</label>
-                  <input type="text" class="form-control" id="mname" name="mname" placeholder="Maiden Name(if married)">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="phone" hidden="true">Phone</label>
-                  <input type="numbert" class="form-control" id="phone" placeholder="Phone Number">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail" hidden="true">Email</label>
-                  <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="pps" hidden="true">PPS</label>
-                  <input type="number" class="form-control" id="pps" name="pps" placeholder="PPS Number">
-                </div>
-              </div>
-              <fieldset>
-                <legend class="d-flex justify-content-start">Date of Birth:</legend>
+            <div class="card-block">
+              <form class="form-info">
                 <div class="form-row">
-
-                  <div class="form-group col-md-4">
-                    <label for="date-day" hidden="true">Day(DD)</label>
-                    <input type="number" class="form-control" id="date-day" name="date-day" placeholder="Day(DD)">
+                  <div class="form-group col-md-6">
+                    <label for="fname" hidden="true">First Name</label>
+                    <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
                   </div>
-                  <div class="form-group col-md-4">
-                    <label for="date-month" hidden="true">Month(MM)</label>
-                    <input type="number" class="form-control" id="date-month" name="date-month" placeholder="Month(MM)">
+                  <div class="form-group col-md-6">
+                    <label for="lname" hidden="true">Last Name</label>
+                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
                   </div>
-                  <div class="form-group col-md-4">
-                    <label for="date-year" hidden="true">Year(YYYY)</label>
-                    <input type="number" class="form-control" id="date-year" name="date-year" placeholder="Year(YYYY)">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="mname" hidden="true">Maiden Name(if married)</label>
+                    <input type="text" class="form-control" id="mname" name="mname" placeholder="Maiden Name(if married)">
                   </div>
+                  <div class="form-group col-md-6">
+                    <label for="phone" hidden="true">Phone</label>
+                    <input type="numbert" class="form-control" id="phone" placeholder="Phone Number">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail" hidden="true">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="pps" hidden="true">PPS</label>
+                    <input type="number" class="form-control" id="pps" name="pps" placeholder="PPS Number">
+                  </div>
+                </div>
+                <fieldset>
+                  <legend class="d-flex justify-content-start">Date of Birth:</legend>
+                  <div class="form-row">
 
-                </div>
-              </fieldset>
-              <fieldset>
-                <legend class="d-flex justify-content-start">Address:</legend>
-                <div class="form-group">
-                  <label for="inputAddress" hidden="true">Address 1</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Address 1">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2" hidden="true">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2" hidden="true">Address 3</label>
-                  <input type="text" class="form-control" id="inputAddress3" placeholder="Address 3">
-                </div>
-              </fieldset>
+                    <div class="form-group col-md-4">
+                      <label for="date-day" hidden="true">Day(DD)</label>
+                      <input type="number" class="form-control" id="date-day" name="date-day" placeholder="Day(DD)">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="date-month" hidden="true">Month(MM)</label>
+                      <input type="number" class="form-control" id="date-month" name="date-month" placeholder="Month(MM)">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="date-year" hidden="true">Year(YYYY)</label>
+                      <input type="number" class="form-control" id="date-year" name="date-year" placeholder="Year(YYYY)">
+                    </div>
 
-              <div class="form-group d-flex justify-content-start">
-                <div class="signature-check">
-                  <label class="form-signature-label" for="signature">
-                    Please sign the form by drawing or typing your name in the box below
-                  </label>
-                  <textarea class="form-control" id="signature" rows="3" ></textarea>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend class="d-flex justify-content-start">Address:</legend>
+                  <div class="form-group">
+                    <label for="inputAddress" hidden="true">Address 1</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Address 1">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2" hidden="true">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2" hidden="true">Address 3</label>
+                    <input type="text" class="form-control" id="inputAddress3" placeholder="Address 3">
+                  </div>
+                </fieldset>
+
+                <div class="form-group d-flex justify-content-start">
+                  <div class="signature-check">
+                    <label class="form-signature-label" for="signature">
+                      Please sign the form by drawing or typing your name in the box below
+                    </label>
+                    <textarea class="form-control" id="signature" rows="3" ></textarea>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group d-flex justify-content-start">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    I have read and agree to the <a href="terms-conditions.html">Terms & Conditions</a>
-                  </label>
+                <div class="form-group d-flex justify-content-start">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I have read and agree to the <a href="terms-conditions.html">Terms & Conditions</a>
+                    </label>
+                  </div>
                 </div>
-              </div>
-              <div class="btn-submit d-flex justify-content-end">
-                <button type="submit" class="btn btn-warning text-light d-flex justify-content-end">Submit</button>
-              </div>
-            </form>
+                <div class="btn-submit d-flex justify-content-end">
+                  <button type="submit" class="btn btn-warning text-light d-flex justify-content-end">Submit</button>
+                </div>
+              </form>
+            </div>
+
           </div>
 
         </div>
@@ -269,9 +271,18 @@
   <!-- Image Showcases -->
   <section class="showcase" id="howitworks">
     <div class="container-fluid p-0">
+      <div class="row">
+        <div class="col">
+          <div class="text-center py-5">
+            <h2>How It Works</h2>
+            <hr class="divider">
+          </div>
+
+        </div>
+      </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/fill-in-form-640.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <div class="col-sm-6 order-sm-2 text-white showcase-img" style="background-image: url('img/fill-in-form-640.jpg');"></div>
+        <div class="col-sm-6 order-sm-1 my-auto showcase-text">
           <div class="showcase-icon d-flex">
             <i class="icon-book-open m-auto text-primary"></i>
           </div>
@@ -280,8 +291,8 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/digital-marketing-640.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
+        <div class="col-sm-6 text-white showcase-img" style="background-image: url('img/digital-marketing-640.jpg');"></div>
+        <div class="col-sm-6 my-auto showcase-text">
           <div class="showcase-icon d-flex">
             <i class="icon-layers m-auto text-primary"></i>
           </div>
@@ -290,8 +301,8 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/application-640.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <div class="col-sm-6 order-sm-2 text-white showcase-img" style="background-image: url('img/application-640.jpg');"></div>
+        <div class="col-sm-6 order-sm-1 my-auto showcase-text">
           <div class="showcase-icon d-flex">
             <i class="icon-credit-card m-auto text-primary"></i>
           </div>
@@ -357,7 +368,7 @@
   </section>
 
 <!-- Contact -->
-<section class="contact">
+<section class="contact" id="contact">
   <div class="container-fluid bg-light">
     <div class="row justify-content-center text-center">
       <div class="col-12 col-sm-10 my-5">

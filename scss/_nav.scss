@@ -10,4 +10,11 @@
     font-size: 1.5rem;
     font-weight: 400;
   }
+
+  a.nav-link {
+    color: $gray-200;
+    &:hover {
+      color: $color-primary-light;
+    }
+  }
 }

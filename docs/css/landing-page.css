@@ -9721,10 +9721,24 @@ a:link {
   color: #FFC107;
 }
 
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #2196F3;
+}
+
 #mainNav a.navbar-brand {
   font-family: 'Satisfy',cursive;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+#mainNav a.nav-link {
+  color: #e9ecef;
+}
+
+#mainNav a.nav-link:hover {
+  color: #BBDEFB;
 }
 
 header.masthead {
@@ -9792,7 +9806,7 @@ header.masthead .form-info h1, header.masthead .form-info h2, header.masthead .f
 }
 
 header.masthead .form-info legend {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 header.masthead .signature-check {
@@ -9810,12 +9824,6 @@ header.masthead .signature-check {
 
 .carousel {
   height: 200px;
-}
-
-@media (max-width: 575.98px) {
-  .carousel {
-    height: 330px;
-  }
 }
 
 @media screen and (max-width: 340px) {
@@ -9891,7 +9899,7 @@ header.masthead .signature-check {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 20rem;
   background-size: cover;
 }
 

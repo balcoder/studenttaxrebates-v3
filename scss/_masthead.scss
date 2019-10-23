@@ -25,6 +25,7 @@ header.masthead {
   }
   @media (min-width: 768px) {
     //padding-top: 12rem;
+
     padding-top: 3rem;
     padding-bottom: 6rem;
     h1 {
@@ -47,6 +48,10 @@ header.masthead {
         color: $light;
       }
     }
+    &-block {
+      // background-color: blue;
+      // opacity: .1;
+    }
   }
   .form-info {
     padding: 1rem;
@@ -58,7 +63,8 @@ header.masthead {
       color:  #555;
     }
     legend {
-      font-size: 1rem
+      font-size: .9rem;
+
     }
 
   }
